@@ -1,0 +1,154 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  background-color: #f6f0eb;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  line-height: 280%;
+  color: #707272;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  display: block;
+  margin: 5% 10% 5% 10%;
+}
+
+/* Fonts */
+
+h1 {
+  font-size: 3.5em;
+  line-height: 112%;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.body-1 {
+  font-size: 2em;
+  letter-spacing: 0.05em;
+}
+
+.body-2 {
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 113%;
+}
+
+.body-3 {
+  font-weight: 600;
+}
+
+.overline {
+  font-weight: 900;
+  text-transform:uppercase;
+  font-size: 2em;
+  letter-spacing: 0.18em;
+
+}
+
+/* Top Section */
+.nav {
+  display: flex;
+  width: 100%;
+  color: #707272;
+  margin-bottom: 5%;
+}
+
+.left-nav {
+  width: 80%;
+}
+
+.right-nav {
+  display: flex;
+  width: 20%;
+}
+
+.right-nav div {
+  margin-left: 10%;
+}
+
+/* Middle Content */
+
+.hero {
+  width: 100%;
+  background-color: #C2CCBE;
+}
+
+.hero-content {
+  margin: 0 auto;
+  padding: 8% 0% 8% 10%;
+  color: #2D2E2E;
+}
+
+.hero-top {
+  margin-bottom: 4%;
+}
+
+.hero-middle {
+  display: block;
+}
+
+.title-bottom {
+  display: flex;
+}
+
+.title-bottom strong {
+  margin-left: 9%;
+}
+
+.hero-bottom {
+  margin-top: 4%;
+  width: 90%;
+}
+
+/* What We Do Section  */
+
+.services-detail {
+  margin-top: 15%;
+}
+
+.title, .quote, .text {
+  margin-bottom: 4%;
+}
+
+.title .overline {
+  color: #E68461;
+}
+
+.text {
+  width: 90%;
+}
+
+.text .body-1 {
+  margin-bottom: 3%;
+}
+
+.list-item {
+  margin-bottom: 3%;
+  list-style: square;
+}
+
+/* Contact Section */
+
+.icon-item {
+  display: flex;
+  margin-bottom: 3%;
+  %;
+}
+
+.list i {
+  margin-right: 1%;
+}
